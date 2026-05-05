@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new chat</title>
+    <style>
+        div {
+            margin: 20px;
+
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #25D366;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            border-radius: 12px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            outline: none;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Write a new chat....</h3>
+    <form action="/chats" method="post">
+        <div><input type="text" placeholder="Who are You?" name="from"></div>
+        <div><textarea name="msg" id="message" rows="4" cols="40">Write your message here</textarea></div>
+        <div><input type="text" placeholder="Add Receiver" name="to"></div>
+        <div><button>Create Chat</button></div>
+    </form>
+</body>
+
+</html>
