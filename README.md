@@ -36,6 +36,35 @@ mongodb://127.0.0.1:27017/whatsapp
 4. Run the server
 node index.js
 
+---
+
+## 📸 Screenshots
+
+### 🏠 Homepage
+
+<p align="center">
+  <img src="screenshots/homepage.png" width="800">
+</p>
+
+---
+
+
+### 🛠️ Edit Post Page
+
+<p align="center">
+  <img src="screenshots/edit_page.png" width="800">
+</p>
+
+---
+
+### 🛠️ New Post Page
+
+<p align="center">
+  <img src="screenshots/newchat.png" width="800">
+</p>
+
+---
+
 🌐 Routes
 Route	-      Method	-  Description
 /chats	-      GET	-      Show all chats
